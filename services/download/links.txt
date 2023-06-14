@@ -1,4 +1,4 @@
-https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned-emaonly.safetensors
+https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors
   out=v1-5-pruned-emaonly.safetensors
 https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
   out=VAE/vae-ft-mse-840000-ema-pruned.ckpt
@@ -12,7 +12,7 @@ https://heibox.uni-heidelberg.de/f/31a76b13ea27482981b4/?dl=1
   out=LDSR/project.yaml
 https://heibox.uni-heidelberg.de/f/578df07c8fc04ffbadf3/?dl=1
   out=LDSR/model.ckpt
-https://huggingface.co/OedoSoldier/detail-tweaker-lora/blob/main/add_detail.safetensors
+https://huggingface.co/OedoSoldier/detail-tweaker-lora/resolve/main/add_detail.safetensors
   out=Lora/add_detail.safetensors
-https://huggingface.co/Lykon/DreamShaper/blob/main/Dreamshaper_3.32_baked_vae_clip_fix.safetensors
-  out=StableDiffusion/Dreamshaper_3.32_baked_vae_clip_fix.safetensors
+https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_6_BakedVae.safetensors
+  out=StableDiffusion/DreamShaper_6_BakedVae.safetensors
