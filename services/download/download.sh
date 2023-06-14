@@ -26,12 +26,13 @@ mkdir -vp /data/.cache \
   /data/GLIGEN \
   /data/CLIPEncoder # this is different from the cached pre-train ViT saved in /data/.cache/clip TODO: find out how
 
-echo "Downloading, this might take a while...---------------------"
-
-aria2c -x 10 --disable-ipv6 --input-file /docker/links.txt --dir /data --continue
-
 echo 'git clone start-------------'
 
 git clone https://github.com/Mikubill/sd-webui-controlnet.git /data/config/auto/extensions/
+
+echo "Downloading, this might take a while...---------------------"
+
+aria2c -x 10 --input-file /docker/links.txt --dir /data --continue
+
 
 echo "finish downloading----------------------------------------------------"
