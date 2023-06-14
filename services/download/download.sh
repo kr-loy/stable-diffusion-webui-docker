@@ -30,6 +30,8 @@ echo "Downloading, this might take a while...---------------------"
 
 aria2c -x 10 --disable-ipv6 --input-file /docker/links.txt --dir /data --continue
 
-git clone https://github.com/Mikubill/sd-webui-controlnet.git /data/config/auto/extensions
+echo 'git clone start-------------'
+
+git clone https://github.com/Mikubill/sd-webui-controlnet.git /data/config/auto/extensions/
 
 echo "finish downloading----------------------------------------------------"
