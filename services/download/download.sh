@@ -28,7 +28,7 @@ mkdir -vp /data/.cache \
 
 echo 'git clone start-------------'
 
-git clone https://github.com/Mikubill/sd-webui-controlnet.git /data/config/auto/extensions/
+git clone https://github.com/Mikubill/sd-webui-controlnet.git /data/config/auto/extensions/sd-webui-controlnet/
 
 echo "Downloading, this might take a while...---------------------"
 

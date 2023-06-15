@@ -1,5 +1,5 @@
 https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors
-  out=v1-5-pruned-emaonly.safetensors
+  out=StableDiffusion/v1-5-pruned-emaonly.safetensors
 https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
   out=VAE/vae-ft-mse-840000-ema-pruned.ckpt
 https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth
