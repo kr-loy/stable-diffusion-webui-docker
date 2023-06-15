@@ -27,8 +27,10 @@ mkdir -vp /data/.cache \
   /data/CLIPEncoder # this is different from the cached pre-train ViT saved in /data/.cache/clip TODO: find out how
 
 echo 'git clone start-------------'
-
-git clone https://github.com/Mikubill/sd-webui-controlnet.git /data/config/auto/extensions/sd-webui-controlnet/
+# 如果不存在sd-webui-controlnet 就clone
+if [ ! -d "/data/config/auto/extensions/sd-webui-controlnet" ]; then
+  git clone https://github.com/Mikubill/sd-webui-controlnet.git /data/config/auto/extensions/sd-webui-controlnet/
+fi
 
 echo "Downloading, this might take a while...---------------------"
 
