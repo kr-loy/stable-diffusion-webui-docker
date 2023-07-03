@@ -22,6 +22,29 @@ https://huggingface.co/OedoSoldier/detail-tweaker-lora/resolve/main/add_detail.s
   out=Lora/add_detail.safetensors
 
 #   controlNet models
-
-https://huggingface.co/ckpt/ControlNet/resolve/main/control_canny-fp16.safetensors
-  out=config/auto/extensions/sd-webui-controlnet/models/control_canny-fp16.safetensors
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_ip2p.pth
+	out=config/auto/extensions/sd-webui-controlnet/models/control_v11e_sd15_ip2p.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_shuffle.pth
+	out=config/auto/extensions/sd-webui-controlnet/models/control_v11e_sd15_shuffle.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth
+	out=config/auto/extensions/sd-webui-controlnet/models/control_v11f1e_sd15_tile.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1p_sd15_depth.pth
+	out=config/auto/extensions/sd-webui-controlnet/models=/control_v11f1p_sd15_depth.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny.pth
+	out=config/auto/extensions/sd-webui-controlnet/models=/control_v11p_sd15_canny.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_inpaint.pth
+	out=config/auto/extensions/sd-webui-controlnet/models=/control_v11p_sd15_inpaint.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_lineart.pth
+	out=config/auto/extensions/sd-webui-controlnet/models=/control_v11p_sd15_lineart.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_mlsd.pth
+	out=config/auto/extensions/sd-webui-controlnet/models=/control_v11p_sd15_mlsd.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_normalbae.pth
+	out=config/auto/extensions/sd-webui-controlnet/models=/control_v11p_sd15_normalbae.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth
+	out=config/auto/extensions/sd-webui-controlnet/models=/control_v11p_sd15_openpose.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_scribble.pth
+	out=config/auto/extensions/sd-webui-controlnet/models=/control_v11p_sd15_scribble.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_seg.pth
+	out=config/auto/extensions/sd-webui-controlnet/models=/control_v11p_sd15_seg.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_softedge.pth
+	out=config/auto/extensions/sd-webui-controlnet/models=/control_v11p_sd15_softedge.pth
